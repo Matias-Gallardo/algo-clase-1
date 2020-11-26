@@ -3,7 +3,7 @@ const algosdk = require('algosdk');
 const algodServer = "https://testnet-algorand.api.purestake.io/ps2";
 const algodPort = "";
 const algodToken = {
-    'X-API-Key': "xGQHkoJAXm6gQlWuKRDVD6IP4i2hr9ZB7BDFK58f"
+    'X-API-Key': ""
 }
 const algodClient = new algosdk.Algodv2(algodToken, algodServer, algodPort);
 
